@@ -214,9 +214,9 @@
 </section>
 
 <!-- Products -->
-<section id="products" class="py-20 md:py-32 px-4 md:px-6 bg-[#050507]">
+<section id="products" class="py-8 md:py-14 px-4 md:px-6 bg-[#050507]">
     <div class="max-w-7xl mx-auto">
-        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-12">
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8">
             <div>
                 <span class="text-xs uppercase tracking-[0.2em] text-[#E8FF57] mb-2 block">Featured</span>
                 <h2 class="font-display text-3xl md:text-5xl font-semibold text-white">Hot Products</h2>
@@ -285,9 +285,9 @@
 </section>
 
 <!-- Features -->
-<section class="py-20 md:py-32 px-4 md:px-6 bg-[#0A0A0F] border-y border-white/5">
+<section class="py-8 md:py-14 px-4 md:px-6 bg-[#0A0A0F] border-y border-white/5">
     <div class="max-w-7xl mx-auto">
-        <div class="text-center mb-16">
+        <div class="text-center mb-10">
             <span class="text-xs uppercase tracking-[0.2em] text-[#E8FF57] mb-3 block">Why Us</span>
             <h2 class="font-display text-3xl md:text-5xl font-semibold text-white">Built Different</h2>
         </div>
@@ -321,9 +321,9 @@
 </section>
 
 <!-- Categories -->
-<section class="py-20 md:py-32 px-4 md:px-6 bg-[#050507]">
+<section class="py-8 md:py-14 px-4 md:px-6 bg-[#050507]">
     <div class="max-w-7xl mx-auto">
-        <div class="text-center mb-12">
+        <div class="text-center mb-8">
             <span class="text-xs uppercase tracking-[0.2em] text-[#E8FF57] mb-3 block">Categories</span>
             <h2 class="font-display text-3xl md:text-5xl font-semibold text-white">Shop by Type</h2>
         </div>
@@ -355,7 +355,7 @@
 </section>
 
 <!-- CTA -->
-<section class="py-20 md:py-32 px-4 md:px-6 bg-[#0A0A0F]">
+<section class="py-8 md:py-14 px-4 md:px-6 bg-[#0A0A0F]">
     <div class="max-w-3xl mx-auto text-center">
         <span class="text-xs uppercase tracking-[0.2em] text-[#E8FF57] mb-4 block">Get Started</span>
         <h2 class="font-display text-3xl md:text-6xl font-semibold text-white mb-4">Ready to Build?</h2>
