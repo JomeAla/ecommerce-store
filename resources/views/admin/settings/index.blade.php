@@ -48,6 +48,29 @@
 
         <div class="bg-slate-800 rounded-lg border border-slate-700 overflow-hidden mt-6">
             <div class="border-b border-slate-700 p-4 bg-slate-700/50">
+                <h3 class="text-lg font-semibold text-white">Homepage Settings</h3>
+            </div>
+            <div class="p-6 grid grid-cols-1 gap-6">
+                <div>
+                    <label class="block text-sm font-medium text-slate-300 mb-2">Hero Background Image URL</label>
+                    <input type="text" name="settings[hero_background_image]" value="{{ $settings['general']->where('key', 'hero_background_image')->first()?->value ?: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1920&h=1080&fit=crop&q=85' }}" 
+                           placeholder="https://images.unsplash.com/..." 
+                           class="w-full px-4 py-2 bg-slate-700 border border-slate-600 rounded-lg text-slate-200 placeholder-slate-400 focus:outline-none focus:border-indigo-500">
+                    <p class="text-xs text-slate-500 mt-2">Enter a full URL to an image (e.g., from Unsplash)</p>
+                </div>
+                <div class="mt-4">
+                    <p class="text-sm font-medium text-slate-300 mb-3">Preview</p>
+                    <div class="w-full h-40 rounded-lg overflow-hidden bg-slate-700">
+                        <img src="{{ $settings['general']->where('key', 'hero_background_image')->first()?->value ?: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1920&h=1080&fit=crop&q=85' }}" 
+                             alt="Hero Preview" 
+                             class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-slate-800 rounded-lg border border-slate-700 overflow-hidden mt-6">
+            <div class="border-b border-slate-700 p-4 bg-slate-700/50">
                 <h3 class="text-lg font-semibold text-white">Payment Settings</h3>
             </div>
             <div class="p-6 grid grid-cols-1 md:grid-cols-2 gap-6">
